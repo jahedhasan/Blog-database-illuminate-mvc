@@ -1,0 +1,12 @@
+{
+    "require": {
+        "illuminate/database": "^5.6",
+        "illuminate/events": "^5.6",
+        "nesbot/carbon": "^1.22",
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+      "files": ["db.php", "functions.php"],
+      "classmap": ["models/"]
+    }
+}
